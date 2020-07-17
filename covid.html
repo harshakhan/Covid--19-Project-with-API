@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="covid.css" />
+  <title>Covide Data</title>
+</head>
+<body>
+  <!-- <div class="input">
+   
+  </div> -->
+  <div class="bigcard">
+    <i class="fa fa-shield-virus"></i>
+    <input type="text" class="form-control " id="country" placeholder="country" aria-label="Username"
+    aria-describedby="basic-addon1">
+  
+  <button type="button" class="btn btn-success mt-2 offset-11" id="submit">Submit</button>
+
+    <h2>COVID -19 Cases in <span id="country"></span> <img src="" id="flag"></h2>
+    <div class="board">
+      <div class="box a"><i class="fa fa-tachometer"></i><h5>Active Cases</h5><span id="active"></span></div>
+      <div class="box ca"><i class="fa fa-th-list"></i><h5>Total Cases</h5><span id="cases"></span></div>
+      <div class="box cr"><i class="fa fa-times-circle"></i><h5>Critical Cases</h5><span id="critical"></span></div>
+      <div class="box d"><i class="fa fa-times"></i><h5>Total Deaths</h5><span id="deaths"></span></div>
+      <div class="box r"><i class="fa fa-check-square-o"></i><h5>Recovered Cases</h5><span id="recovered"></span></div>
+      <div class="box t"><i class="fa fa-eye"></i><h5>Total Testes Done</h5><span id="tests"></span></div>
+    </div>
+  </div>
+  <script type="text/javascript" src ="covid.js">
+  
+  </script>
+  
+</body>
+</html>
